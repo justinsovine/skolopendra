@@ -1,5 +1,14 @@
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8VTRT2GHCF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-8VTRT2GHCF');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Skolopendra Studio by Emily Kaelin offers evocative artistry inspired by the beauty and chaos of nature, featuring 
@@ -33,7 +42,7 @@ music">
     <!-- Centered container -->
     <div class="flex flex-col items-center justify-center text-center">
         <!-- ASCII Art of Centipede -->
-        <pre class="ascii" aria-label="ASCII art of a centipede">
+        <pre id="ascii" class="ascii" aria-label="ASCII art of a centipede">
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⣇⣠⣧⣤⣴⣁⣀⠖⠄⠀⠀
 ⠉⠢⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⣄⢱⣤⣿⣿⡿⣿⣿⣿⣿⣤⠎⠂⠀
@@ -66,6 +75,45 @@ residencies in Iceland and Washington state. Skolopendra Studio also offers comm
 "Annihilation," is coming soon.</p>
         <p>Connect with Skolopendra Studio on Instagram: @skolopendra_studio and @vvitchinheat, or email at skolopendraaa.studio@gmail.com.</p>
     </footer>
+
+    <script>
+        const frames = [
+            `
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⣇⣠⣧⣤⣴⣁⣀⠖⠄⠀⠀
+⠉⠢⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⣄⢱⣤⣿⣿⡿⣿⣿⣿⣿⣤⠎⠂⠀
+⠀⠀⠈⠳⣕⡦⡀⢳⡀⣏⢦⡀⢳⣸⣾⣿⢿⡗⢯⣾⡾⢿⣿⣿⡤⠄⠒
+⠠⠤⠦⠤⠿⣿⣿⣿⣷⣾⣷⣿⣿⡿⢿⠭⡃⠈⠑⢿⡛⣿⣿⣿⣅⡀⠀
+⠀⠀⠀⠀⣠⠞⠉⢹⠏⢻⠝⠛⡏⠉⣇⠀⠙⢆⡠⢥⣼⣿⣿⣏⠀⠈⠑
+⠀⠀⠀⠜⠁⠀⠀⡏⠀⡞⠀⠀⢇⠀⠘⣄⢀⡼⣭⣿⣿⡿⢣⠀⠑⡀⠀
+⠀⠀⠀⠀⠀⠀⠀⠁⠀⠁⠀⠐⠬⠀⡀⠀⠘⣽⣿⣿⢟⢎⡆⠂⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠑⠛⣿⠟⠈⠘⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀           ⠘⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀
+            `,
+            `
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⣇⣠⣧⣤⣴⣁⣀⠖⠄⠀⠀
+⠉⠢⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⣄⢱⣤⣿⣿⡿⣿⣿⣿⣿⣤⠎⠂⠀
+⠀⠀⠈⠳⣕⡦⡀⢳⡀⣏⢦⡀⢳⣸⣾⣿⢿⡗⢯⣾⡾⢿⣿⣿⡤⠄⠒
+⠠⠤⠦⠤⠿⣿⣿⣿⣷⣾⣷⣿⣿⡿⢿⠭⡃⠈⠑⢿⡛⣿⣿⣿⣅⡀⠀
+⠀⠀⠀⠀⣠⠞⠉⢹⠏⢻⠝⠛⡏⠉⣇⠀⠙⢆⡠⢥⣼⣿⣿⣏⠀⠈⠑
+⠀⠀⠀⠜⠁⠀⠀⡏⠀⡞⠀⠀⢇⠀⠘⣄⢀⡼⣭⣿⣿⡿⢣⠀⠑⡀⠀
+⠀⠀⠀⠀⠀⠀⠀⠁⠀⠁⠀⠐⠬⠀ ⠀⠘⣽⣿⣿⢟⢎⡆⠂⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⣀⠬⠛⣿⠟⠈⠘⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀          ⠘⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠞⠀⠀⠀⠀⠀⠀
+            `
+        ];
+
+        let frameIndex = 0;
+        const asciiArt = document.getElementById('ascii');
+
+        setInterval(() => {
+            frameIndex = (frameIndex + 1) % frames.length;
+            asciiArt.innerHTML = `<pre>${frames[frameIndex]}</pre>`;
+        }, 1000); // Change every 500ms
+    </script>
 </body>
 </html>
 
