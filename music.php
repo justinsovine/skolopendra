@@ -1,24 +1,16 @@
 <div class="container mx-auto px-4 mt-10 text-gray-300">
-    <h1 class="text-5xl font-bold mb-6">VKVEENA - Music</h1>
-
-    <p class="text-lg leading-relaxed">
-        VKVEENA’s first EP, titled “Annihilation”, is due to be released in the coming months, 
-        but the single “Like a Stone” (Audioslave cover) is currently available on streaming platforms.
-    </p>
-
-    <p class="text-lg mt-4">
-        <a href="https://open.spotify.com/artist/4F0pNfXaXQjCZPEGUj8uzw" class="text-lime-400">Listen on Spotify</a><br>
-        <a href="https://vkveena.bandcamp.com/track/like-a-stone" class="text-lime-400">Listen on Bandcamp</a><br>
-        <a href="https://soundcloud.com/vkveena" class="text-lime-400">Listen on Soundcloud</a><br>
-        <a href="https://www.youtube.com/watch?v=NmYum44m-kk" class="text-lime-400">Watch on YouTube</a>
-    </p>
-
-    <p class="text-lg leading-relaxed mt-6">
-        Although VKVEENA has been a solo project up until now, I am looking to expand my sound through the addition of a guitarist and a live drummer. 
-        If you’re a local drummer proficient in multiple forms of metal-style drumming—black metal in particular—and love dark and intense music, please reach out!
-    </p>
-
-    <p class="text-lg mt-4">
-        Contact: <a href="mailto:skolopendraaa.studio@gmail.com" class="text-lime-400">skolopendraaa.studio@gmail.com</a>
-    </p>
+    <div class="max-w-3xl mx-auto">
+        <h1 class="text-3xl font-bold text-center md:text-left mb-6 khand-light">VKVEENA - Music</h1>
+        <p class="text-lg leading-relaxed">
+            In tandem with my visual art practice, I have also spent over 15 years composing multiple forms of experimental and electronic music.
+            My project, VKVEENA, takes inspiration from industrial, witch house, harsh noise, black metal/doom metal, dark ambient, and other genres to create dark, intense, and
+            experimental storytelling through song and sound.
+        </p>
+        <p class="text-lg mt-4">
+            <a href="https://open.spotify.com/artist/4F0pNfXaXQjCZPEGUj8uzw" class="text-lime-400">Listen on Spotify</a> |
+            <a href="https://vkveena.bandcamp.com/track/like-a-stone" class="text-lime-400">Bandcamp</a> |
+            <a href="https://soundcloud.com/vkveena" class="text-lime-400">Soundcloud</a> |
+            <a href="https://www.youtube.com/watch?v=NmYum44m-kk" class="text-lime-400">YouTube</a>
+        </p>
+    </div>
 </div>
