@@ -1,4 +1,3 @@
-// music.php
 <div class="container mx-auto px-4 mt-10 text-gray-300">
     <div class="max-w-3xl mx-auto">
         <h1 class="text-3xl font-bold text-center md:text-left mb-6 khand-light">VKVEENA - Music</h1>
