@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Young+Serif&display=swap');
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.khand-light {
+    font-family: "Khand", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.khand-regular {
+    font-family: "Khand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.khand-medium {
+    font-family: "Khand", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.khand-semibold {
+    font-family: "Khand", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.khand-bold {
+    font-family: "Khand", serif;
+    font-weight: 700;
+    font-style: normal;
+}
