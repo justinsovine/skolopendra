@@ -1,4 +1,4 @@
-<div class="text-center mb-10">
+<div class="text-center my-10">
     <h1 class="text-6xl font-bold young-serif-regular leading-none">Skolopendra</h1>
 
     <!-- Navigation Menu -->
