@@ -1,7 +1,7 @@
 <div class="container mx-auto px-4 mt-10 text-gray-300">
     <div class="max-w-3xl mx-auto">
         <!-- h1 Stays Inside the Main Container -->
-        <h1 class="text-5xl font-bold text-center md:text-left mb-6">About the Artist</h1>
+        <h1 class="text-2xl font-bold text-center md:text-left mb-6 khand-regular">About the Artist</h1>
 
         <!-- Wrapper for Image + Text -->
         <div class="flex flex-col md:flex-row-reverse items-center md:items-start space-y-6 md:space-y-0 md:gap-8">
