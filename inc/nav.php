@@ -3,7 +3,7 @@
 
     <!-- Navigation Menu -->
     <nav class="mt-6">
-        <ul class="flex flex-wrap justify-center gap-4 text-xl khand-regular">
+        <ul class="flex flex-wrap justify-center gap-x-4 gap-y-2 text-xl khand-regular leading-tight">
             <li><a href="/" class="hover:text-lime-600 transition">Home</a></li>
             <li><a href="/studio" class="hover:text-lime-600 transition">Studio</a></li>
             <li><a href="/about" class="hover:text-lime-600 transition">About</a></li>
