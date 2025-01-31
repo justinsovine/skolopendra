@@ -1,5 +1,5 @@
 <div class="container mx-auto px-4 mt-10 text-gray-300">
-    <div class="max-w-3xl mx-auto flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
+    <div class="max-w-3xl mx-auto flex flex-col md:flex-row-reverse items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
         
         <!-- Image (Pulled Right on Desktop, Stacks on Mobile) -->
         <div class="w-full md:w-1/3 flex justify-center">
