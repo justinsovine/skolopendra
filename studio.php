@@ -12,6 +12,6 @@
         <p class="text-lg leading-relaxed mt-4">
             Skolopendra Studio showcases a myriad of Emily’s artistic offerings, including oil paintings, watercolors, abstract sculptures, and handcrafted wands and scepters.
         </p>
-        <img class="hidden md:block h-auto max-w-full rounded-lg w-full mt-6"  src="img/027.jpg" alt="Emily Kaelin">
+        <img class="h-auto max-w-full rounded-lg w-full mt-6"  src="img/027.jpg" alt="Emily Kaelin">
     </div>
 </div>
