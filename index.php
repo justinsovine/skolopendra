@@ -20,19 +20,19 @@ $routes = [
 include __DIR__ . '/inc/header.php';
 include __DIR__ . '/inc/nav.php';
 
-// // Serve the appropriate page if it exists
-// if (array_key_exists($route, $routes) && file_exists($routes[$route])) {
-//     require_once $routes[$route];
-// } else {
-//     // Log the error if the route doesn't exist
-//     error_log("404 Not Found: " . htmlspecialchars($route));
+// Serve the appropriate page if it exists
+if (array_key_exists($route, $routes) && file_exists($routes[$route])) {
+    require_once $routes[$route];
+} else {
+    // Log the error if the route doesn't exist
+    error_log("404 Not Found: " . htmlspecialchars($route));
 
-//     // Set 404 response code
-//     http_response_code(404);
+    // Set 404 response code
+    http_response_code(404);
 
-//     // Show user-friendly error message
-//     require_once __DIR__ . '/404.php';
-// }
+    // Show user-friendly error message
+    require_once __DIR__ . '/404.php';
+}
 
 // Include footer
 require_once __DIR__ . '/inc/footer.php';
