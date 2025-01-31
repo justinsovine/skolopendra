@@ -1,6 +1,6 @@
 <div class="container mx-auto px-4 mt-10 text-gray-300">
     <div class="max-w-3xl mx-auto"> <!-- Limit width to a readable size -->
-        <h1 class="text-5xl font-bold mb-6">About the Artist</h1>
+        <h1 class="text-xl font-bold mb-6">About the Artist</h1>
 
         <img class="h-auto max-w-lg mx-auto rounded-lg mb-6" src="img/emily-portrait.jpg" alt="Emily Kaelin">
 
