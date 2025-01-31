@@ -1,8 +1,11 @@
 <?php
-// Enable error logging for debugging (only enable in development)
+// Enable error logging (for debugging)
 ini_set('log_errors', 1);
-ini_set('error_log', __DIR__ . '/logs/error.log'); // Log errors to logs/error.log
-ini_set('display_errors', 0); // Hide errors from users
+ini_set('error_log', __DIR__ . '/logs/error.log');
+ini_set('display_errors', 0); // Hide errors from users in production
+
+// Define security constant to prevent direct access to includes
+define('SECURE_ACCESS', true);
 
 // Get the requested route from the URL (default to "home")
 $route = isset($_GET['route']) ? rtrim($_GET['route'], '/') : 'home';
@@ -17,23 +20,16 @@ $routes = [
 ];
 
 // Include header and navigation
-include __DIR__ . '/inc/header.php';
-include __DIR__ . '/inc/nav.php';
+require_once __DIR__ . '/inc/header.php';
+require_once __DIR__ . '/inc/nav.php';
 
 // Serve the appropriate page if it exists
 if (array_key_exists($route, $routes) && file_exists($routes[$route])) {
     require_once $routes[$route];
 } else {
-    // Log the error if the route doesn't exist
-    error_log("404 Not Found: " . htmlspecialchars($route));
-
-    // Set 404 response code
     http_response_code(404);
-
-    // Show user-friendly error message
     require_once __DIR__ . '/404.php';
 }
 
-// Include footer
+// Include the footer globally for all pages
 require_once __DIR__ . '/inc/footer.php';
-?>

@@ -35,4 +35,5 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="icon" href="/favicon.ico">
 </head>
-<body class="bg-slate-900 text-white">
+<body class="bg-slate-900 text-white flex flex-col min-h-screen">
+    <div class="flex-grow">
