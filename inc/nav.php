@@ -5,9 +5,11 @@
     <nav class="mt-6">
         <ul class="flex justify-center space-x-6 text-xl khand-regular">
             <li><a href="/" class="hover:text-lime-600 transition">Home</a></li>
+            <li><a href="/studio" class="hover:text-lime-600 transition">Studio</a></li>
             <li><a href="/about" class="hover:text-lime-600 transition">About</a></li>
             <li><a href="/commissions" class="hover:text-lime-600 transition">Commissions</a></li>
             <li><a href="/music" class="hover:text-lime-600 transition">Music</a></li>
+            <li><a href="/statement" class="hover:text-lime-600 transition">Statement</a></li>
             <li><a href="/contact" class="hover:text-lime-600 transition">Contact</a></li>
         </ul>
     </nav>

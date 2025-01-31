@@ -13,9 +13,11 @@ $route = isset($_GET['route']) ? trim($_GET['route'], '/') : 'home';
 // Define valid routes and their corresponding PHP files
 $routes = [
     'home'        => __DIR__ . '/home.php',
+    'studio'      => __DIR__ . '/studio.php',
     'about'       => __DIR__ . '/about.php',
     'commissions' => __DIR__ . '/commissions.php',
     'music'       => __DIR__ . '/music.php',
+    'statement'   => __DIR__ . '/statement.php',
     'contact'     => __DIR__ . '/contact.php'
 ];
 

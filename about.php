@@ -30,5 +30,8 @@
                 </p>
             </div>
         </div>
+
+        <!-- h1 Stays Inside the Main Container -->
+        <h1 class="text-3xl font-bold text-center md:text-left mb-6 khand-light">Artistic Background</h1>
     </div>
 </div>
