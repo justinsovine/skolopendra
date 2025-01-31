@@ -12,17 +12,17 @@ $routes = [
 ];
 
 // Include header and navigation
-require_once('header.php');
-require_once('nav.php');
+require_once 'header.php';
+require_once 'nav.php';
 
 // Serve the appropriate page if it exists
 if (array_key_exists($route, $routes)) {
-    require_once($routes[$route]);
+    require_once $routes[$route];
 } else {
     http_response_code(404);
-    require_once('404.php');
+    require_once '404.php';
 }
 
 // Include footer
-require_once('footer.php');
+require_once 'footer.php';
 ?>
