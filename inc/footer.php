@@ -7,7 +7,7 @@
             and  
             <a href="https://www.instagram.com/vvitchinheat" class="text-lime-400 hover:underline">@vvitchinheat</a>,  
             or email at  
-            <a href="mailto:skolopendraaa.studio@gmail.com" class="text-lime-400 hover:underline">skolopendraaa.studio@gmail.com</a>.
+            <a href="mailto:emily@skolopendra.studio" class="text-lime-400 hover:underline">emily@skolopendra.studio</a>.
         </p>
     </footer>
 </body>
