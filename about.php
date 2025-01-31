@@ -4,13 +4,15 @@
 
         <!-- First paragraph with floated image -->
         <div class="relative">
-            <img class="h-auto max-w-full rounded-lg w-full md:w-1/3 md:max-w-[250px] md:float-right md:ml-6 mb-4 md:mb-2" 
+            <img class="hidden md:block h-auto max-w-full rounded-lg w-full md:w-1/3 md:max-w-[250px] md:float-right md:ml-6 mb-4 md:mb-2" 
                 src="img/031.jpg" alt="Emily Kaelin">
             <p class="text-lg leading-relaxed">
                 Originally from Cincinnati, Ohio, I moved to the Olympia, WA area in September 2024 - a goal I’ve worked towards for over a decade! 
                 Yearning to live closely with the remarkable beauty of the forests local to this part of the country, and the incredible healing, 
                 peace, and awe they provide me - not to mention artistic inspiration - are my primary motivations in relocating to this area.
             </p>
+            <img class="block md:hidden h-auto max-w-full rounded-lg w-full md:w-1/3 md:max-w-[250px] md:float-right md:ml-6 mb-4 md:mb-2" 
+                src="img/031.jpg" alt="Emily Kaelin">
         </div>
 
         <h1 class="text-3xl font-bold text-center md:text-left mt-8 mb-6 khand-light">Artistic Background</h1>
