@@ -8,12 +8,12 @@ ini_set('display_errors', 0); // Hide errors from users in production
 define('SECURE_ACCESS', true);
 
 // Get the requested route from the URL (default to "home")
-$route = isset($_GET['route']) ? rtrim($_GET['route'], '/') : 'home';
+$route = isset($_GET['route']) ? trim($_GET['route'], '/') : 'home';
 
 // Define valid routes and their corresponding PHP files
 $routes = [
-    '/home'        => __DIR__ . '/home.php',
-    '/about'       => __DIR__ . '/about.php',
+    'home'        => __DIR__ . '/home.php',
+    'about'       => __DIR__ . '/about.php',
     'commissions' => __DIR__ . '/commissions.php',
     'music'       => __DIR__ . '/music.php',
     'contact'     => __DIR__ . '/contact.php'
