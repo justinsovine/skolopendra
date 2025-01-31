@@ -1,14 +1,13 @@
 <div class="container mx-auto px-4 mt-10 text-gray-300">
     <div class="max-w-3xl mx-auto">
-        <!-- h1 Stays Inside Main Container -->
+        <!-- h1 Stays Inside the Main Container -->
         <h1 class="text-5xl font-bold text-center md:text-left mb-6">About the Artist</h1>
 
         <!-- Wrapper for Image + Text -->
-        <div class="flex flex-col md:flex-row-reverse items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
-
+        <div class="flex flex-col md:flex-row-reverse items-center md:items-start space-y-6 md:space-y-0 md:gap-8">
 
             <!-- Image (Right on Desktop, Stacks on Mobile) -->
-            <div class="w-full md:w-1/3 flex justify-center">
+            <div class="w-full md:w-1/3 flex md:justify-end">
                 <img class="h-auto max-w-full rounded-lg" src="img/031.jpg" alt="Emily Kaelin">
             </div>
 
