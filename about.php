@@ -2,7 +2,7 @@
     <div class="max-w-3xl mx-auto">
         <h1 class="text-3xl font-bold text-center md:text-left mb-6 khand-light">About the Artist</h1>
 
-        <!-- First paragraph with floated image -->
+        <!-- First paragraph -->
         <div class="relative">
             <p class="text-lg leading-relaxed">
                 Originally from Cincinnati, Ohio, I moved to the Olympia, WA area in September 2024 - a goal I’ve worked towards for over a decade! 
@@ -10,10 +10,15 @@
                 peace, and awe they provide me - not to mention artistic inspiration - are my primary motivations in relocating to this area.
             </p>
 
-            <!-- Image (Floats Right on Desktop, Appears Below Text on Mobile) -->
-            <div class="w-full flex justify-center mt-4 md:mt-0 md:w-1/3 md:float-right md:ml-6">
+            <!-- Desktop Image (Floats Right) -->
+            <div class="hidden md:block w-1/3 float-right ml-6">
                 <img class="h-auto max-w-full rounded-lg" src="img/031.jpg" alt="Emily Kaelin">
             </div>
+        </div>
+
+        <!-- Mobile Image (Appears Below the First Paragraph) -->
+        <div class="block md:hidden w-full flex justify-center mt-4">
+            <img class="h-auto max-w-full rounded-lg" src="img/031.jpg" alt="Emily Kaelin">
         </div>
 
         <h1 class="text-3xl font-bold text-center md:text-left mt-8 mb-6 khand-light">Artistic Background</h1>
