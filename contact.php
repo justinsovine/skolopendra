@@ -5,7 +5,7 @@
             Connect with me:
         </p>
         <p class="text-lg mt-4">
-            📧 Email: <a href="mailto:emily@skolopendra.studio" class="text-lime-400">mailto:emily@skolopendra.studio</a>
+            📧 Email: <a href="mailto:emily@skolopendra.studio" class="text-lime-400">emily@skolopendra.studio</a>
         </p>
         <p class="text-lg mt-4">
             🔗 Follow me on Instagram:
