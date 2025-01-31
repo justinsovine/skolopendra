@@ -1,15 +1,17 @@
 <div class="container mx-auto px-4 mt-10 text-gray-300">
+    <!-- Heading at the Top -->
+    <h1 class="text-5xl font-bold text-center md:text-left mb-6">About the Artist</h1>
+
+    <!-- Wrapper for Image + Text (Row on Desktop, Stack on Mobile) -->
     <div class="max-w-3xl mx-auto flex flex-col md:flex-row-reverse items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
-        
-        <!-- Image (Pulled Right on Desktop, Stacks on Mobile) -->
+
+        <!-- Image (Right on Desktop, Stacks on Mobile) -->
         <div class="w-full md:w-1/3 flex justify-center">
             <img class="h-auto max-w-full rounded-lg" src="img/031.jpg" alt="Emily Kaelin">
         </div>
 
-        <!-- Text Content -->
+        <!-- Text Content (Left on Desktop) -->
         <div class="w-full md:w-2/3">
-            <h1 class="text-5xl font-bold mb-6">About the Artist</h1>
-
             <p class="text-lg leading-relaxed">
                 Originally from Cincinnati, Ohio, I moved to the Olympia, WA area in September 2024—a goal I’ve worked towards for over a decade! 
                 Yearning to live closely with the remarkable beauty of the forests local to this part of the country, and the incredible healing, peace, and awe they provide me—
@@ -26,6 +28,5 @@
                 and events, utilizing my full range of creative skills from painting and sculpture, to installation and set design, to performance and music.
             </p>
         </div>
-
     </div>
 </div>
