@@ -17,8 +17,8 @@ $routes = [
 ];
 
 // Include header and navigation
-require_once __DIR__ . '/header.php';
-require_once __DIR__ . '/nav.php';
+// require_once __DIR__ . '/header.php';
+// require_once __DIR__ . '/nav.php';
 
 // // Serve the appropriate page if it exists
 // if (array_key_exists($route, $routes) && file_exists($routes[$route])) {
@@ -35,5 +35,5 @@ require_once __DIR__ . '/nav.php';
 // }
 
 // Include footer
-require_once __DIR__ . '/footer.php';
+// require_once __DIR__ . '/footer.php';
 ?>
